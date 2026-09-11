@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Build output (generated from src/ by `pnpm build`)
+lib/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+# npm is not the package manager here; a stray npm lockfile would shadow pnpm-lock.yaml
+package-lock.json
